@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+}
+header{
+    background-image: url(images/one.jpg);
+    height: 2000px;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.one{
+    border: 1px white solid;
+    display: inline-block;
+    margin-top: 500px;
+    padding: 10px 30px;
+}
+.one>h1{
+    font-size: 60px;
+}
+.one>h3{
+    font-size: 30px;
+}
+.two{
+    border: 1px solid rgb(244, 240, 240);
+    width: 300px;
+    margin-left:800px;
+    padding: 10px;
+    margin-top: 490px;
+    background-color: white;
+    border-radius: 5px;
+}
+.two>a{
+    text-decoration: none;
+    color: black;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+.three{
+    width: 65%;
+    margin-left: 350px;
+    margin-top: -700px;
+}
+.three>img{
+    width: 95%;
+    margin-bottom: 15px;
+}
+.four{
+    width: 62%;
+    margin-left: 350px;
+    background-color: antiquewhite;
+}
+.four>h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    font-size: 30px;
+    padding-top: 80px;
+    text-align: center;
+}
+.four>p{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    padding: 40px;
+}
+.four1{
+    height: 50px;
+    width: 97%;
+    margin-bottom: 20px;
+}
+.four2{
+    width: 98%;
+    height: 50px;
+    margin-top: 50px;
+    font-size: 20px;
+    background-color: rgb(238, 229, 229);
+}
+.four2:hover{
+    background-color:grey;
+    cursor: pointer;
+
+}
+.two:hover{
+     background-color: gray;
+     cursor: pointer;
+}
+
+
